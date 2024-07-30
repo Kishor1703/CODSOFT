@@ -3,94 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>TechWave - IT Innovation and Consultancy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
+        <nav class="container">
             <img src="logo.png" alt="TechWave Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Our Services</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" >
-        <div class="home">
-        <div class="hero">
+    <section id="home">
+        <div class="container hero">
             <h1>Welcome to <span class="highlight">TechWave</span></h1>
             <p>Your Partner in IT Innovation and Consultancy</p>
             <a href="#about" class="btn">Learn More</a>
         </div>
-    </div>
     </section>
 
     <section id="about">
-        <H2>About us</H2>
         <div class="container">
-            
-            <p>We are TechWave, a company that helps businesses with IT stuff. We have been working since 2020 and we love technology!</p>
+            <h2>About Us</h2>
+            <p>We are TechWave, a company that empowers businesses with cutting-edge IT solutions. Established in 2020, we're passionate about leveraging technology to drive growth and success.</p>
             <div class="about-content">
                 <div class="about-item">
                     <h3>Our Mission</h3>
-                    <p>Our mission is to empower businesses with cutting-edge technology solutions and expert consultancy to foster growth and success in the digital era. We strive to provide exceptional service and deliver results that exceed our clients' expectations.</p>
+                    <p>To empower businesses with innovative technology solutions and expert consultancy, fostering growth and success in the digital era. We strive to exceed client expectations through exceptional service and results.</p>
                 </div>
                 <div class="about-item">
                     <h3>What We Do</h3>
                     <ul>
-                        <li>Make software</li>
-                        <li>Help with computers</li>
-                        <li>Cloud things</li>
-                        <li>Keep data safe</li>
-                        <li>Give advice about IT</li>
+                        <li>Custom Software Development</li>
+                        <li>IT Infrastructure Management</li>
+                        <li>Cloud Computing Solutions</li>
+                        <li>Cybersecurity Services</li>
+                        <li>IT Strategy and Consulting</li>
                     </ul>
                 </div>
                 <div class="about-item">
                     <h3>Why Choose Us</h3>
-                    <p>We are friendly and work hard. We will help you with all your IT problems. Choose us because we care about your business!</p>
+                    <p>We combine expertise with a client-centric approach, delivering tailored solutions that address your unique business challenges. Choose TechWave for innovation, reliability, and a commitment to your success.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="services">
-        <h2>Our Services</h2>
         <div class="container">
-           
-            <div class="service-item">
-                <h3>Custom Software Development</h3>
-                <p>We build tailor-made software solutions that meet your specific business needs.</p>
-            </div>
-            <div class="service-item">
-                <h3>IT Infrastructure Management</h3>
-                <p>Efficiently manage and optimize your IT infrastructure for enhanced performance and security.</p>
-            </div>
-            <div class="service-item">
-                <h3>Cloud Computing Solutions</h3>
-                <p>Leverage the power of the cloud to drive scalability and flexibility in your operations.</p>
-            </div>
-            <div class="service-item">
-                <h3>Data Analytics and Business Intelligence</h3>
-                <p>Transform data into actionable insights for informed decision-making and strategic planning.</p>
-            </div>
-            <div class="service-item">
-                <h3>Cybersecurity Services</h3>
-                <p>Protect your digital assets with our comprehensive cybersecurity solutions.</p>
-            </div>
-            <div class="service-item">
-                <h3>IT Strategy and Consulting</h3>
-                <p>Develop and implement effective IT strategies that align with your business goals.</p>
-            </div>
-            <div class="service-item">
-                <h3>Technical Support and Maintenance</h3>
-                <p>Receive round-the-clock technical support and maintenance for all your IT needs.</p>
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Custom Software Development</h3>
+                    <p>Tailor-made software solutions designed to meet your specific business needs and drive efficiency.</p>
+                </div>
+                <div class="service-item">
+                    <h3>IT Infrastructure Management</h3>
+                    <p>Optimize your IT infrastructure for enhanced performance, scalability, and security.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Cloud Computing Solutions</h3>
+                    <p>Harness the power of the cloud to enhance flexibility, scalability, and cost-efficiency in your operations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Data Analytics and BI</h3>
+                    <p>Transform raw data into actionable insights to drive informed decision-making and strategic planning.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Cybersecurity Services</h3>
+                    <p>Protect your digital assets with our comprehensive cybersecurity solutions and best practices.</p>
+                </div>
+                <div class="service-item">
+                    <h3>IT Strategy and Consulting</h3>
+                    <p>Align your IT initiatives with business goals through expert consultation and strategic planning.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -99,10 +91,16 @@
         <div class="container">
             <h2>Contact Us</h2>
             <form action="#">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Submit</button>
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
             </form>
         </div>
     </section>
